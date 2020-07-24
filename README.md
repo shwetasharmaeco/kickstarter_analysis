@@ -52,6 +52,6 @@ I explored kickstarter datasets. My goal was to examine the data and report key 
 **Observation**: A food kickstarter in IL is likely to succeed if it has ~16 days between its creation date and launch date & ~33 days before its deadline.
 
 ## A/B Testing and Power Analysis
-Welch Test was used to compare samples between NY and CA to examine if a publishing kickstarter has better chance to succeed in NY than in CA.
+Samples between NY and CA were analysed to examine if a publishing kickstarter has better chance to succeed in NY than in CA.
 
-Both Welch-ttest and Baye's/Beta test confirmed NY being better than CA for publishing category.
+Both frequentist hypothesis testing and Bayesian A/B testing confirmed NY being better than CA for publishing category.
