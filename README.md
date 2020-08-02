@@ -6,7 +6,7 @@ I explored kickstarter datasets. My goal was to examine the data and report key 
 
 * Dataset had 33 indicators tracking category, location, backers count, goal etc for 18000 kickstarters.
 * Data had json objects in a couple of columns. Which were parsed to obtain relevenat key value pairs. Unix timestamp columns were converted to datetime columns for statistical analysis.
-* Dataset has "Nan" whic were strategically to only include columns/attributes which had valid data in them.
+* Dataset has "Nan" which were strategically handled to only include columns/attributes which had valid data in them.
 * Dataset is a mix of numerical, datetime, string and categorical columns.
 
 # Features Analysed
@@ -20,15 +20,15 @@ I explored kickstarter datasets. My goal was to examine the data and report key 
 * Robustness of tests was checked through power analysis.
 
 ## Number of kickstarters according to different status
-![Image]("./status%.png")
+![Image](./status%.png)
 **Observation**: Dataset has close to 58% successful kickstarters, 35% failed kickstarters.
 
 ## Most popular categories
-![Image]("popular_cat.png")
-**Observation**: Filam & Video, Music and Technology is amongst top three categories.
+![Image](./popular_cat.png)
+**Observation**: Film & Video, Music and Technology is amongst top three categories.
 
 ## Top successful and unsuccessful categories.
-![Image]("succ_fail.png)
+![Image]("succ_fail.png")
 **Observation**: Music has maximum number of successful kickstarters, 1589 and Technology is the only category which has more failed kickstarters than successful ones.
 
 ## Number of kickstarters per country
