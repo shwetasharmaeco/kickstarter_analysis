@@ -20,7 +20,7 @@ I explored kickstarter datasets. My goal was to examine the data and report key 
 * Robustness of tests was checked through power analysis.
 
 ## Number of kickstarters according to different status
-![Image1](./status%.png)
+![Image1](status%.png)
 **Observation**: Dataset has close to 58% successful kickstarters, 35% failed kickstarters.
 
 ## Most popular categories
