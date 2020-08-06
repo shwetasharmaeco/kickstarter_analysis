@@ -20,23 +20,23 @@ I explored kickstarter datasets. My goal was to examine the data and report key 
 * Robustness of tests was checked through power analysis.
 
 ## Number of kickstarters according to different status
-![Image1](status%.png)
+![Image1](images/status_perc.png)
 **Observation**: Dataset has close to 58% successful kickstarters, 35% failed kickstarters.
 
 ## Most popular categories
-![Image2](popular_cat.png)
+![Image2](images/popular_cat.png)
 **Observation**: Film & Video, Music and Technology is amongst top three categories.
 
 ## Top successful and unsuccessful categories.
-![Image3](succ_fail.png)
+![Image3](images/succ_fail.png)
 **Observation**: Music has maximum number of successful kickstarters, 1589 and Technology is the only category which has more failed kickstarters than successful ones.
 
 ## Number of kickstarters per country
-![Image4](country.png)
+![Image4](images/country.png)
 **Observation**: The United states has maximum number of kickstarters, ~13000 followed by The United Kingdom with ~2000 kickstarters.
 
 ## States within United States with maximum number of kickstarters
-![Image5](states.png)
+![Image5](images/states.png)
 **Observation**: CA has most nmu,ber of successful kickstartes, ~1450 followed by NY with ~1000 successful kickstarters but in terms of percentage NY is ahead of CA.
 
 ## Top successful categories in each state
